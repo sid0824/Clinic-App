@@ -1,0 +1,238 @@
+/**
+ * Body CSS
+ */
+.wrapper{
+  background: rgba(146, 255, 255, 0.3)
+
+}
+#sidebar{
+  &.sidebar{
+    &:after{
+      background: #1C2B39 !important;
+    }
+
+  }
+}
+
+// CARDS
+.card{
+  border: 0;
+  -webkit-box-shadow: 0 4px 16px -10px #777;
+     -moz-box-shadow: 0 4px 16px -10px #777;
+          box-shadow: 0 4px 16px -10px #777;
+
+  .header{
+    border-bottom: 1px solid #dfe3e9;
+    padding: 15px;
+
+    h4{
+      color: #32638B !important;
+      font-family: $font-default;
+      font-weight: 600;
+      font-size: 15px !important;
+      text-transform: uppercase;
+    }
+    .title{
+      small{
+        text-transform: none;
+        font-size: 14px;
+        margin-left: 15px;
+      }
+    }
+  }
+  .content{
+    .col-form-label{
+      margin-bottom: 15px;
+      color: #32638b;
+      font-family: $font-default;
+      font-size: 14px;
+      font-weight: 600;
+      text-transform: capitalize;
+    }
+  }
+
+}
+
+.ondisplay{
+  width: 60px;
+
+  .squaredThree{
+    margin: 0;
+
+    label{
+      background: #EAF5FF;
+
+      &:after{
+        border-color: currentcolor currentcolor #000 #000;
+        top: 6px;
+      }
+    }
+  }
+}
+
+#myProfile-menu{
+  font-size: 14px;
+  line-height: 30px;
+  text-transform: capitalize;
+  position: relative;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+
+  &.open{
+    >a:after{
+      font-family: FontAwesome;
+      content: "\f077";
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  a{
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: capitalize;
+
+  }
+  >a:after{
+    font-family: FontAwesome;
+    content: "\f078";
+    width: 20px;
+    height: 20px;
+    padding-left: 10px;
+    position: absolute;
+    right: 30px;
+  }
+
+  img{
+    border-radius: 30px;
+    margin-right: 14px;
+    max-width: 30px;
+  }
+
+  img.img-circle-profile{
+    border-radius: 0;
+    margin-right: 14px;
+    max-width: 30px;
+  }
+
+  .dropdown-menu{
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 0 none;
+    box-shadow: none;
+    position: relative;
+    width: 100%;
+
+    a{
+      border-radius: 4px !important;
+      color: #fff;
+    }
+  }
+}
+
+.tableActions{
+  background-color: #fafafa;
+  border-color: #dddddd #dddddd currentcolor;
+  border-image: none;
+  border-style: solid solid none;
+  border-width: 1px 1px 0;
+  padding: 15px;
+
+  .btn{
+    font-size: 12px;
+    margin-bottom: 0;
+    padding: 7px 15px;
+  }
+}
+
+.datepicker.datepicker-dropdown{
+  opacity: 1;
+  visibility: visible;
+}
+.blueBox{
+  background-color: #0294ff;
+  padding: 20px 20px;
+  min-height: 117px;
+  border-radius: 4px;
+
+  .campaignNumber{
+    font-family: $font-default;
+    font-size: 36px;
+    text-align: left;
+    color: #ffffff;
+    margin-right: 20px;
+  }
+  .campaignTitle{
+    font-family: $font-default;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+}
+.yellowBox{
+  background-color: #feca34;
+  padding: 15px 20px;
+  min-height: 117px;
+  border-radius: 4px;
+
+  .dateTime{
+    font-family: $font-default;
+    font-size: 14px;
+    text-align: left;
+    color: #ffffff;
+  }
+  .campaignNumber{
+    font-family: $font-default;
+    font-size: 30px;
+    text-align: left;
+    color: #ffffff;
+    margin-right: 20px;
+
+    &.bigNumber{
+      font-size: 36px;
+    }
+  }
+  .campaignTitle{
+    font-family: $font-default;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    color: #ffffff;
+  }
+}
+.redBox{
+  background-color: #ff475b;
+  padding: 20px 20px;
+  min-height: 117px;
+  border-radius: 4px;
+
+  .campaignNumber{
+    font-family: $font-default;
+    font-size: 36px;
+    text-align: left;
+    color: #ffffff;
+    margin-right: 20px;
+  }
+  .campaignTitle{
+    font-family: $font-default;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    color: #ffffff;
+  }
+}
+/* conform cancel color */
+
+body .modal .modal-footer button[data-bb-handler="cancel"] {
+  background-color: #d0011b;
+  border: #d0011b;
+}
+body .modal .modal-footer button[data-bb-handler="confirm"] {
+  background-color: #84bd00;
+  border: #84bd00;
+}
+
+
+
+
+

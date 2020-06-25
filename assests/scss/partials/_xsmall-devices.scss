@@ -1,0 +1,15 @@
+@media (max-width: 640px) {
+
+}
+
+/* Small devices (tablets, 480px and up) */
+@media (max-width: $xsmall-devices) {
+  .card .header .title small{
+    display: block;
+    margin: 0;
+  }
+
+  #campaignLineChart{
+    display: none !important;
+  }
+}

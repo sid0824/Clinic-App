@@ -1,0 +1,191 @@
+// Theme ids
+
+$ThemeFresh: 'primary-theme';
+$CrazyWarm: 'secondary-theme';
+$DimpleBlue: 'dimple-blue';
+$CuteBerry: 'cute-berry';
+$SmartRed: 'smart-red';
+
+// Theme Fresh
+
+$primary-color: #14a3d3;
+$primary-col-a: #14a3d3;
+$primary-col-b: #444660;
+$primary-col-c: #93e79e;
+$primary-col-d: #26a235;
+
+// Theme Crazy warm
+
+$cw-color: #d38400;
+$cw-col-a: #e89000;
+$cw-col-b: #444660;
+$cw-col-c: #ffcd7a;
+$cw-col-d: #f57623;
+$cw-col-e: #e84800;
+
+// Theme Dimple blue
+
+$db-color: #387ccc;
+$db-col-a: #385ddd;
+$db-col-b: #444660;
+$db-col-c: #93c4ff;
+$db-col-d: #796fe3;
+$db-col-e: #2b61a0;
+
+// Theme  Cute berry
+
+$sw-color: #ac0c7b;
+$sw-col-a: #c90f90;
+$sw-col-b: #444660;
+$sw-col-c: #ffa9e5;
+$sw-col-d: #d215bb;
+$sw-col-e: #ac0c7b;
+
+// Theme Smart red
+
+$sr-color: #cc385e;
+$sr-col-a: #ea3a68;
+$sr-col-b: #444660;
+$sr-col-c: #ffb3c7;
+$sr-col-d: #e1859d;
+$sr-col-e: #ca2562;
+
+@mixin PrTheme($ThemeFresh, $colorA, $colorB, $colorC, $colorD, $colorE) {
+  ##{$ThemeFresh},
+  .pr-modal-form {
+    .ant-btn {
+      &.ant-btn-primary.cl-fill {
+        background-color: $colorA;
+        border: 1px solid $colorA;
+        &:hover {
+          background-color: $colorB;
+          border: 1px solid $colorB;
+        }
+      }
+      &.ant-btn-primary.cl-border {
+        background-color: #ffffff;
+        border: 1px solid $colorA;
+        color: $colorA;
+        &:hover {
+          border: 1px solid $colorB;
+          color: $colorB;
+        }
+      }
+      &.cl-none {
+        color: $colorA;
+        &:hover {
+          color: $colorB;
+        }
+      }
+    }
+    .pr-forms {
+      .ant-select-selection {
+        .anticon-down {
+          color: $colorA;
+        }
+      }
+
+      .ant-input {
+        &:focus,
+        &:hover {
+          border-color: $colorB;
+        }
+      }
+
+      .ant-select-selection {
+        &:focus,
+        &:hover {
+          border-color: $colorB;
+        }
+      }
+
+      .ant-form-item-children-icon,
+      .ant-input-suffix {
+        color: $colorB !important;
+      }
+    }
+
+    .component-title {
+      .icon-Action-click-291x {
+        color: $colorA;
+      }
+    }
+
+    .pr-tabs-wrapper {
+      .ant-tabs-tab-active {
+        color: $colorA;
+        font-weight: 600;
+      }
+      .ant-tabs-ink-bar {
+        background-color: $colorA;
+      }
+      .ant-tabs-nav {
+        .ant-tabs-tab {
+          &:hover {
+            color: $colorA;
+          }
+        }
+      }
+    }
+    .icon-action-51x {
+      &:hover {
+        color: $colorA;
+      }
+    }
+
+    .ant-result {
+      .ant-result-icon i {
+        color: $colorA;
+      }
+    }
+
+    .ant-progress-bg {
+      background-color: $colorA;
+    }
+  }
+}
+
+@include PrTheme(
+  $CrazyWarm,
+  $cw-color,
+  $cw-col-a,
+  $cw-col-b,
+  $cw-col-c,
+  $cw-col-d
+);
+
+@include PrTheme(
+  $DimpleBlue,
+  $db-color,
+  $db-col-a,
+  $db-col-b,
+  $db-col-c,
+  $db-col-d
+);
+
+@include PrTheme(
+  $CuteBerry,
+  $sw-color,
+  $sw-col-a,
+  $sw-col-b,
+  $sw-col-c,
+  $sw-col-d
+);
+
+@include PrTheme(
+  $SmartRed,
+  $sr-color,
+  $sr-col-a,
+  $sr-col-b,
+  $sr-col-c,
+  $sr-col-d
+);
+
+@include PrTheme(
+  $ThemeFresh,
+  $primary-color,
+  $primary-col-a,
+  $primary-col-b,
+  $primary-col-c,
+  $primary-col-d
+);

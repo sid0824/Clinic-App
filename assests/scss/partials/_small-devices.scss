@@ -1,0 +1,14 @@
+@media (max-width: 800px) {
+
+}
+
+/* Small devices (tablets, 767px and up) */
+@media (max-width: $small-devices) {
+  .yellowBox {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  #genderPieChart1{
+    margin-bottom: 15px;
+  }
+}

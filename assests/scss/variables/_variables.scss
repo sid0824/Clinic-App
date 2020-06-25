@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+@import './theme' ;
+
+/* MEDIA QUERIES SCREEN SIZES */
+$xsmall-devices		: 480px;
+$small-devices		: 767px;
+$medium-devices		: 991px;
+$large-devices		: 1199px;
+$xlarge-devices		: 1280px;
+
+/* URL's */
+$img-url			: '../images/';
+
+/* Fonts / Sizes */
+
+$font-sansPro             : 'Source Sans Pro', sans-serif;
+
+$gray-col : #333333;
+
+
+
+//Shaded colors
+$color-body : #333333;
+$color-light : #F2F2F2;
+$color-medium : #DBDBDB;
+$color-dark : #707070;
+
+
+$enable-flex: true;
+
+/* Global Styles */
+//html{
+//	overflow-y: scroll;
+//}
+body{
+  background-color: #eff3f6;
+  color: $color-body;
+  font-family: $font-sansPro !important;
+}
+
+*{
+    outline: none !important;
+}
+.container .row {
+  margin-left: -15px !important;
+  margin-right: -15px !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+.clearBoth{
+    clear: both;
+    float: none;
+}
+.pr-body-comp-wrapper{
+h1{
+    font-family: $font-sansPro;
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 36px;
+    text-transform: capitalize;
+}
+h2{
+    font-family: $font-sansPro;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+h3{
+    font-family: $font-sansPro;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+h4{
+    font-family: $font-sansPro;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+h5{
+    font-family: $font-sansPro;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 20px; 
+}
+h6{
+    font-family: $font-sansPro;
+    font-size: 16px;
+    margin-bottom: 20px; 
+}
+}
