@@ -1,0 +1,140 @@
+.pr-modal-form{
+    .ant-btn{
+        margin-right: 10px;
+        &.ant-btn-primary{
+            min-width: 160px;
+        }
+    }
+
+}
+
+h1{
+    margin: 0 !important;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+// .logo{
+//     display: inline-block;
+//     img{
+//         max-height: 57px;
+//         padding-left: 15px;
+//     }
+// }
+
+p{
+    display: inline-block;
+}
+
+.error-message {
+    display: none;
+    background-color: rgba(237, 23, 31, 0.7);
+    text-align: center;
+    font-weight: normal;
+    font-size: 16px;
+    margin: 10px 0;
+    color: #fff;
+    padding: 10px;
+    text-transform: capitalize;
+    border-radius: 0;
+    border: 0px;
+}
+.search-form{
+    margin: 20px 0;
+    padding: 0 !important;
+    background: #fbfbfb;
+    border: 1px solid #e5e5e5;
+    border-radius: 0px;
+    box-shadow: 0 0 0 #aaa;
+
+    .has-feedback .ant-input {
+        padding-right: 11px !important;
+    }
+    
+    .ant-form-item {
+        margin-bottom: 20px;
+    }
+
+    .login-header{
+        margin-bottom: 0px;
+        padding: 16px !important;
+        background: inherit !important;
+        h1{
+            color: #333;
+            font-size: 18px;
+            text-transform: none;
+        }
+    }
+
+    .login-header-left{
+        background-color: inherit !important;
+        h1{
+            font-size: 20px;
+        }
+    }
+
+    .pr-login-box{
+        padding: 16px;
+        background-color: inherit !important;
+        border-radius: 5px;
+        border: none !important;
+    }
+    .ant-col {
+        margin-bottom: 0px;
+    }
+    .secure-brand-logo{
+        text-align: center;
+        margin-bottom: 20px;
+        img {
+            max-height: 54px;
+            margin: 0 auto;
+        }
+    }
+    .error-block{
+        border: 1px solid #FF0000;
+        background-color: rgba(255, 185, 185, 0.37);
+        font-size: 14px;
+        text-align: center;
+        color: #CE2525;
+        padding: 13px 60px;
+        margin-bottom: 30px;
+        border-radius: 0;
+    }
+    
+    .form-field{
+        margin-bottom: 15px;
+        label{
+            font-size: 14px;
+        }
+        .forgot-pwd{
+            position: absolute;
+            top: -2px;
+            right: -15px;
+            button{
+                height: 0 !important;
+            }
+        }
+    }
+    .form-btn{
+        margin-bottom: 20px;
+    }
+    .btn-login{
+        width: 100%;
+        background-color: #0488b8 !important;
+        border: #0488b8 !important;
+    }
+    .footer-links{
+        text-align: center !important;
+        font-size: 14px;
+        color: #afddf0 !important;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        /* display: inline-block; */
+        cursor: pointer;
+    }
+   
+}
+
+.find-patient{
+    padding: 0 15px;;
+}

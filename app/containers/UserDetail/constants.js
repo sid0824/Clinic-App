@@ -1,0 +1,7 @@
+export const LOAD_USER_DETAILS = 'app/Userdetail/LOAD_USER_DETAILS';
+export const LOAD_USER_DETAILS_SUCCESS = 'app/UserDetail/LOAD_USER_DETAILS_SUCCESS';
+export const LOAD_USER_DETAILS_FAIL = 'app/UserDetail/LOAD_USER_DETAILS_FAIL';
+
+export const UPDATE_USER_DETAILS = 'app/Userdetails/UPDATE_USER_DETAILS';
+export const UPDATE_USER_DETAILS_SUCCESS = 'app/UserDetails/UPDATE_USER_DETAILS_SUCCESS';
+export const UPDATE_USER_DETAILS_FAIL = 'app/UserDetail/UPDATE_USER_DETAILS_FAIL';

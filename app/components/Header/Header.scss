@@ -1,0 +1,42 @@
+.ant-layout-header{
+    background-color: #ffffff;
+    min-height: 70px;
+    .logo{
+        float: left;
+        img{
+            max-width: 154px;
+            padding: 18px 0;
+        }
+    }
+}
+
+.pr-upgrade-action{
+    top: 3px;
+    margin-right: 15px;
+    position: relative;
+}
+.pr-icon-user-wrap{
+    overflow: visible;
+    &:hover{
+        cursor: pointer;
+    }
+}
+.pr-ur-profilie-icon i{
+
+    position: absolute;
+    right: -15px;
+    bottom: 0;
+    background-color: #fff;
+    color: red;
+    font-size: 12px;
+    width: 16px;
+    height: 16px;
+    line-height: 14px;
+    border-radius: 40px;
+    border: 1px solid #B5B6BD;
+    color: #333;
+}
+
+.pr-header-comp-wrapper .header{
+    background-color: #00a3d3;
+}

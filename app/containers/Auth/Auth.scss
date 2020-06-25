@@ -1,0 +1,12 @@
+.pr-auth-wrapper{
+    .pr-auth-block{
+        height: 100vh;
+        >div {
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+            min-height: 476px;
+
+        }
+    }
+}

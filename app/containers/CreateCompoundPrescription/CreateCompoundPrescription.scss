@@ -1,0 +1,46 @@
+.prescription-form {
+  margin: 20px 0;
+  padding: 20px;
+  background: #fbfbfb;
+  border: 1px solid #e5e5e5;
+  border-radius: 0px;
+  box-shadow: 0 0 0 #aaa;
+
+  .has-feedback .ant-input {
+    padding-right: 11px !important;
+  }
+
+  .ant-form-item {
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+
+  .prescription_date {
+    display: inline-block !important;
+  }
+
+  .field_width {
+    width: 20%;
+  }
+}
+
+.new-item {
+  .remove {
+    display: none;
+  }
+  &:hover {
+    background-color: #ffffff;
+    position: relative;
+    .remove {
+      display: block;
+      position: absolute;
+      top: -13px;
+      right: 0;
+      font-size: 26px;
+      color: #048abb;
+      &:hover {
+        color: #048abb;
+      }
+    }
+  }
+}

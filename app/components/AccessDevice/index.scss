@@ -1,0 +1,146 @@
+svg {
+  width: 100%;
+  overflow: visible;
+}
+.svg-age {
+  /* color: red; */
+  font-size: 12px;
+  color: #222322;
+}
+
+.svg-age-data {
+  font-size: 12px;
+  color: #222322;
+}
+.pr-heatmap-filter {
+  text-align: left;
+  h3 {
+    color: #222322;
+    margin-bottom: 15px;
+    font-weight: 500;
+  }
+}
+.pr-filer-options {
+  text-align: left;
+  margin-bottom: 20px;
+  > div {
+    label {
+      color: #222322;
+      display: block;
+      font-size: 14px;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      margin-bottom: 10px;
+      margin-left: 0 !important;
+      .Male,
+      .Female,
+      .Unspecified,
+      .top,
+      .good,
+      .medium {
+        width: 8px;
+        height: 8px;
+
+        display: inline-block;
+        border-radius: 20px;
+        margin-right: 5px;
+        position: relative;
+        top: -1px;
+      }
+      .Male {
+        background: #1fdfff;
+      }
+      .Female {
+        background: #fe72e5;
+      }
+      .Unspecified {
+        background: #bebebe;
+      }
+      .top {
+        background: #21ff2d;
+      }
+      .good {
+        background: #fd0000;
+      }
+      .medium {
+        background: #fed200;
+      }
+      .ant-checkbox-inner,
+      .ant-radio-inner {
+        border: 1px solid #222322;
+        background-color: transparent;
+        &::after {
+          border: 2px solid #222322;
+          border-top: 0;
+          border-left: 0;
+        }
+      }
+      .ant-radio-inner::after {
+        background-color: #222322;
+      }
+    }
+  }
+}
+.thin-border {
+  shape-rendering: crispEdges;
+}
+
+#primary-theme {
+  .pr-progress-access-device {
+    position: relative;
+    top: 50px;
+    min-height: 150px;
+    .ant-progress-line {
+      .ant-progress-bg {
+        border-radius: 4px !important;
+      }
+      .ant-progress-inner {
+        border-radius: 4px 4px 4px 4px !important;
+        overflow: hidden;
+      }
+    }
+    .subc-status {
+      float: left;
+      margin-left: 5px;
+      position: relative;
+      .title {
+        font-size: 12px;
+        position: absolute;
+        top: -20px;
+        text-align: left;
+        width: 70px;
+      }
+      &.mobile {
+        .title {
+          top: 25px;
+          right: -5px;
+          text-align: center;
+        }
+      }
+      &.tab {
+        .title {
+          right: 0;
+          text-align: right;
+        }
+      }
+      &.tab .ant-progress-bg {
+        background-color: rgb(67, 69, 96);
+      }
+      &.mobile .ant-progress-bg {
+        background-color: rgb(184, 237, 190);
+      }
+      &:after {
+        content: '';
+        width: 1px;
+        background: #d9d9d9;
+        height: 5px;
+        position: absolute;
+        left: 50%;
+        bottom: 18px;
+        z-index: 0;
+      }
+      &.mobile:after {
+        bottom: -4px;
+      }
+    }
+  }
+}

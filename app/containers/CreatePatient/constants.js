@@ -1,0 +1,3 @@
+export const CREATE_PATIENT_REQ = 'app/CreatePatient/CREATE_PATIENT_REQ';
+export const CREATE_PATIENT_REQ_SUCCESS = 'app/CreatePatient/CREATE_PATIENT_REQ_SUCCESS';
+export const CREATE_PATIENT_REQ_ERROR = 'app/CreatePatient/CREATE_PATIENT_REQ_ERROR';

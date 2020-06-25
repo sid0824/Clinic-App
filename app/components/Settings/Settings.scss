@@ -1,0 +1,37 @@
+.pr-tabs-wrapper{
+    .ant-radio-wrapper{
+        > span{
+            display: inline-block;
+            
+        }
+        .ant-radio{
+            position: relative;
+            top: -15px;
+        }
+    }
+}
+
+.pr-settings{
+    label.ant-radio-wrapper{
+        margin-bottom: 20px;
+    }
+}
+.pr-theme{
+    .theme-group-a{
+        display: inline-block;
+        span{
+            width:40px;
+            height: 40px;
+            display: inline-block;
+        }
+        margin-right: 10px;
+    }
+    .theme-group-b{
+        display: inline-block;
+        span{
+            width:14px;
+            height: 40px;
+            display: inline-block;
+        }
+    }
+}

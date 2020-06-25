@@ -1,0 +1,85 @@
+svg {
+  width: 100%;
+  overflow: visible;
+}
+.svg-age {
+  /* color: red; */
+  font-size: 12px;
+  color: #222322;
+}
+
+.svg-age-data {
+  font-size: 12px;
+  color: #222322;
+}
+.pr-heatmap-filter {
+  text-align: left;
+  h3 {
+    color: #222322;
+    margin-bottom: 15px;
+    font-weight: 500;
+  }
+}
+.pr-filer-options {
+  text-align: left;
+  margin-bottom: 20px;
+  > div {
+    label {
+      color: #222322;
+      display: block;
+      font-size: 14px;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      margin-bottom: 10px;
+      margin-left: 0 !important;
+      .Male,
+      .Female,
+      .Unspecified,
+      .top,
+      .good,
+      .medium {
+        width: 8px;
+        height: 8px;
+
+        display: inline-block;
+        border-radius: 20px;
+        margin-right: 5px;
+        position: relative;
+        top: -1px;
+      }
+      .Male {
+        background: #1fdfff;
+      }
+      .Female {
+        background: #fe72e5;
+      }
+      .Unspecified {
+        background: #bebebe;
+      }
+      .top {
+        background: #21ff2d;
+      }
+      .good {
+        background: #fd0000;
+      }
+      .medium {
+        background: #fed200;
+      }
+      .ant-checkbox-inner,
+      .ant-radio-inner {
+        border: 1px solid #222322;
+        background-color: transparent;
+        &::after {
+          border: 2px solid #222322;
+          border-top: 0;
+          border-left: 0;
+        }
+      }
+      .ant-radio-inner::after {
+        background-color: #222322;
+      }
+    }
+  }
+}
+.thin-border {
+  shape-rendering: crispEdges;
+}
