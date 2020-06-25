@@ -1,1 +1,1 @@
-# sampleapp-ui
+# clinicapp-ui
